@@ -46,7 +46,7 @@ Some of the features is listed below -
 
 ## User Interactions
 
-### Keyboard Interactions
+### 1. Keyboard Interactions
 
   ➔ **Enter** - From First Introduction screen to screen press Enter key at beginning.
 
@@ -58,7 +58,7 @@ Some of the features is listed below -
 
   ➔ **Speed up** - To speed up the traffic press 's'.
 
-### Mouse Interactions
+### 2. Mouse Interactions
 
   ➔ **Left Mouse Button** - This will stop the traffic as Red light gets on.
 
