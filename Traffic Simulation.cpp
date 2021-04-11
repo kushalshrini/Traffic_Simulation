@@ -8,7 +8,7 @@ void car();
 void car2();
 void mydisplay();
 void display();
-void frontsreen();
+void frontscreen();
 void drawstring();
 void setFont();
 void myMouse();
@@ -33,6 +33,38 @@ for(c=string;*c!='\0';c++)
 glutBitmapCharacter(currentfont,*c);
 }
 }
+void frontscreen(void)
+{
+setFont(GLUT_BITMAP_TIMES_ROMAN_24);
+glClearColor(0.15,0.1,0.01,0);/*background for cover page*/
+glClear(GL_COLOR_BUFFER_BIT);
+glColor3f(1,0,0);
+drawstring(450.0,700.0,0.0,"DAYANANDA SAGAR UNIVERSITY ");
+glColor3f(0.7,0,1);
+drawstring(330,650,0.0,"DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING");
+glColor3f(1,0.5,0);
+drawstring(530,600,0.0,"A MINI PROJECT ON");
+glColor3f(1,0,0);
+drawstring(360,500,0.0,"GRAPHICAL REPRESENTATION OF TRAFFIC SIGNALS");
+glColor3f(1,0.5,0);
+drawstring(200,400,0.0,"BY:");
+glColor3f(1,1,1);
+drawstring(100,300,0.0,"KUSHAL N (ENG17CS0115)");
+glColor3f(1,1,1);
+drawstring(100,240,0.0,"HARIHARAN B (ENG17CS0083)");
+glColor3f(1,1,1);
+drawstring(100,240,0.0,"GURUDEV H Y (ENG17CS0079)");
+glColor3f(1,1,1);
+drawstring(100,240,0.0,"MOHAMMED ZAHID PASHA (ENG17CS0129)");
+glColor3f(1,0.5,0);
+drawstring(980,400,0.0,"GUIDE:");
+glColor3f(1,1,1);
+drawstring(930,300,0.0,"RANJITHA G");
+glColor3f(1,0.1,1);
+drawstring(543,100,0.0,"PRESS ENTER TO START");
+glFlush();
+}
+
 void helpscreen()
 {
 setFont(GLUT_BITMAP_TIMES_ROMAN_24);
