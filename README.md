@@ -46,7 +46,7 @@ Some of the features is listed below -
 
 ## User Interactions
 
-## Keyboard Interactions
+### Keyboard Interactions
 
   ➔ **Enter** - From First Introduction screen to screen press Enter key at beginning.
 
