@@ -26,3 +26,42 @@ libraries.
 ● The application is platform independent.
 
 ● C++ was chosen to code the project as it is the most commonly used language in conjunction with OpenGL.
+
+
+## Features 
+Some of the features is listed below -
+
+1.**Light Options** - As in any traffic signal you will see the three lights - red, yellow and green. All the options has been implemented.
+
+2.**Vehicles** - To keep the OpenGL Code simple for all only three vehicles has been added. Though, if you like to add more do it, you are welcome.
+
+3.**Lanes** -  The right and left lane options is implemented in the program.
+
+4.**User Interactions** - Both mouse and keyboard interaction has been added to the OpenGL Code. All the user interactions has been listed in the post below.
+
+5.There is options to speed up the traffic is also in the code.
+
+6.Program has include the front page for introduction.
+
+
+## User Interactions
+
+## Keyboard Interactions
+
+  ➔ **Enter** - From First Introduction screen to screen press Enter key at beginning.
+
+  ➔ **Help** -  Press 'h'to get the help screen.
+
+  ➔ **Left to right movement** - press 'l' to allow only left to right movement of traffic.
+
+  ➔ **Right to left movement** - press 'r' to allow only right to left movement of traffic.
+
+  ➔ **Speed up** - To speed up the traffic press 's'.
+
+### Mouse Interactions
+
+  ➔ **Left Mouse Button** - This will stop the traffic as Red light gets on.
+
+  ➔ **Right Mouse Button (on hold)** - Press right mouse button and keep on hold for yellow light. 
+
+  ➔ **Right Mouse Button (released)** - After releasing the right mouse button the light changes from yellow to green and traffic moves.
