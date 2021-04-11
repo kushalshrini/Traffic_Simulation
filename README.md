@@ -10,7 +10,9 @@ Same method we implemented in our project which was used in real life .We have u
 ### ALGORITHM:
 
   ➔ Line drawing algorithm for traffic light pole and body of the car.
+  
   ➔ Circle drawing algorithm for wheels of the car and lights of the traffic pole.
+  
   ➔ Flood fill algorithm for colouring.
 
 ### LANGUAGE:
@@ -22,5 +24,5 @@ Same method we implemented in our project which was used in real life .We have u
 libraries.
 
 ● The application is platform independent.
-● C++ was chosen to code the project as it is the most commonly used language in
-conjunction with OpenGL.
+
+● C++ was chosen to code the project as it is the most commonly used language in conjunction with OpenGL.
